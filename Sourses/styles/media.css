@@ -1,0 +1,26 @@
+@media (max-width: 1060px) {
+    .max1060hidden {
+        display: none;
+    }
+}
+
+
+@media (max-width: 470px) {
+    .max470hidden {
+        display: none;
+    }
+
+    .max470independet {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .max470show{
+        display: block;
+    }
+}
+
+
+
+
+

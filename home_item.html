@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="Sourses/styles/style.css" />
+  
+</head>
+<body>
+
+    
+    <div id = "root" class="root">
+        <div class = "theme_buttons_block_in_root max470hidden">
+            <button id = "light_theme_button1" class="theme_button icon-sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                <circle cx="32" cy="32" r="16" fill="#000000"/>
+                    <g stroke="#000000" stroke-width="2">
+                        <line x1="32" y1="15" x2="32" y2="5"/>
+                        <line x1="32" y1="60" x2="32" y2="50"/>
+                        <line x1="15" y1="32" x2="5" y2="32"/>
+                        <line x1="50" y1="32" x2="60" y2="32"/>
+    
+                        <line x1="20" y1="20" x2="10" y2="10"/>
+                        <line x1="55" y1="55" x2="45" y2="45"/>
+                        <line x1="20" y1="45" x2="10" y2="55"/>
+                        <line x1="55" y1="10" x2="45" y2="20"/>
+                    </g>
+                </svg>
+            </button>
+    
+    
+            <button id = "dark_theme_button1" class="theme_button icon-moon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="50" fill="#FFFFFF" />
+                    <circle cx="50" cy="100" r="50" fill="rgba(0, 0, 0, 0.8)"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class = "background">
+            <div id="bckb1l" class = "background_banner" ></div>
+            <div id="bckb1d" class = "background_banner" ></div>
+            <div id="bckb2" class = "background_banner" ></div>
+            <div id="bckb3" class = "background_banner" ></div>
+        </div>
+        
+
+        <header class="main_header">
+            <div class="upper_block">
+                <div class="main_icon_block"> 
+
+
+                    <svg class="moviedb-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256">
+                        <rect x="0" y="0" width="512" height="256" fill="#000" rx="40" ry="40"/>
+                        
+                        <rect x="40" y="0" width="80" height="40" fill="#fff"/>
+                        <rect x="160" y="0" width="80" height="40" fill="#fff"/>
+                        <rect x="280" y="0" width="80" height="40" fill="#fff"/>
+                        <rect x="400" y="0" width="80" height="40" fill="#fff"/>
+                        
+                        <rect x="40" y="216" width="80" height="40" fill="#fff"/>
+                        <rect x="160" y="216" width="80" height="40" fill="#fff"/>
+                        <rect x="280" y="216" width="80" height="40" fill="#fff"/>
+                        <rect x="400" y="216" width="80" height="40" fill="#fff"/>
+                        
+                        <text x="32%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="100" fill="#79aebe">
+                            MOVIE
+                        </text>
+                        <text x="82%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="120" fill="#79aebe">
+                            DB
+                        </text>
+                    </svg>
+
+
+                </div>
+                <div class="main_navigation_unit">
+                    <div class="navigation_item" data-tooltip="This is tooltip"> navigation_item </div>
+                    <div class="navigation_item" data-tooltip="This is tooltip"> navigation_item </div>
+                    <div class="navigation_item" data-tooltip="This is tooltip"> navigation_item </div>
+                    <div class="navigation_item" data-tooltip="This is tooltip"> navigation_item </div>
+                    <div class="navigation_item" data-tooltip="This is tooltip"> navigation_item </div>
+                    <div class="navigation_item" data-tooltip="This is tooltip"> navigation_item </div>
+                    <div class="navigation_item" data-tooltip="This is tooltip"> navigation_item </div>
+                    <div class="navigation_item" data-tooltip="This is tooltip"> navigation_item </div>
+                </div>
+
+                <div class = "theme_buttons_block_in_header max470show">
+                    <button id = "light_theme_button2" class="theme_button icon-sun">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <circle cx="32" cy="32" r="16" fill="#000000"/>
+                            <g stroke="#000000" stroke-width="2">
+                                <line x1="32" y1="15" x2="32" y2="5"/>
+                                <line x1="32" y1="60" x2="32" y2="50"/>
+                                <line x1="15" y1="32" x2="5" y2="32"/>
+                                <line x1="50" y1="32" x2="60" y2="32"/>
+            
+                                <line x1="20" y1="20" x2="10" y2="10"/>
+                                <line x1="55" y1="55" x2="45" y2="45"/>
+                                <line x1="20" y1="45" x2="10" y2="55"/>
+                                <line x1="55" y1="10" x2="45" y2="20"/>
+                            </g>
+                        </svg>
+                    </button>
+            
+            
+                    <button id = "dark_theme_button2" class="theme_button icon-moon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="50" fill="#FFFFFF" />
+                            <circle cx="50" cy="100" r="50" fill="rgba(0, 0, 0, 0.8)"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="main_panel max470independet">
+            <div class="main_banner_block">
+                <div  class="main_banner">
+                    <div class="path">
+                        <spam class="path_text"> Главная/...</spam>
+                    </div> 
+                    <div class="title">
+                        <span class="title_text">Самый лучший заголовок!!!</span>
+                    </div>
+                    
+                    <img id = "big_banner1" src = "Sourses/images/b2.png"/>
+                    
+                    
+                </div>
+               <div class="description">
+                        <spam class="description_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quasi, officia accusamus tempore
+                                illum totam cum enim amet adipisci tenetur sunt deleniti
+                                voluptate eaque ipsa autem quas at nesciunt voluptates! 
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Accusantium sed quos deleniti, enim officiis eveniet hic? 
+                                Tenetur accusamus consectetur iure a veritatis aliquam sit, 
+                                voluptates eius architecto officiis? Harum, ullam.
+                        </spam>
+                    </div>
+            </div>
+            <div class="compilation_lists">
+                <div class="compilation_list">
+                    <div class="compilation_list_title">
+                        <span class="text">
+                            Подборка
+                        </span>
+                    </div>
+                    <div class="compilation_list_border_line">
+                    </div>
+                    <div class="button_block">
+                            <div class="button_block_left"><div class="small_scroll_button"><span><</span></div></div>
+                            <div class="button_block_right"><div class="small_scroll_button"><span>></span></div></div>
+                    </div>
+                    <div class="banners">
+                        
+                        <div class="middle_banner">
+                            
+                            <div class="banner_image" style="background-image: url('Sourses/images/f1.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+                                
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f2.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f3.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f4.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f1.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f2.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f3.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f4.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f1.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="compilation_list">
+                    <div class="compilation_list_title">
+                        <span class="text">
+                            Подборка
+                        </span>
+                    </div>
+                    <div class="compilation_list_border_line">
+                    </div>
+                    <div class="button_block">
+                        <div class="button_block_left"><div class="small_scroll_button"><span><</span></div></div>
+                        <div class="button_block_right"><div class="small_scroll_button"><span>></span></div></div>
+                    </div>
+                    <div class="banners">
+                        <div class="middle_banner" >
+                            <div class="banner_image" style="background-image: url('Sourses/images/f3.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f2.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f1.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f4.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f2.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f2.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f3.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f4.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                        <div class="middle_banner">
+                            <div class="banner_image" style="background-image: url('Sourses/images/f1.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+                                <div class="darkening_block">
+                                    <div class="red_button_play"><div class="triangle"></div></div>
+                                </div>
+
+                            </div>
+                            <div class="description">
+                                описание
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+
+            <div class="film_units">
+                <div class="film_unit">
+
+                    <div class="left_part">
+                        <img class="film_image" src = 'Sourses/images/f3.png'/>
+                        <div class="raiting">
+                            raiting
+                        </div>
+                    </div>
+                    <div class="right_part">
+                        <div class="name_block">
+                            <span class="big_name"> Имя (2024)</span>
+                            <span class="small_name"> Name </span>
+                        </div>
+                        <div class="unit_data_info_table_block">
+                            <table class="unit_data_info_table">
+                                    <tr><td><span class="table_header_text">Продолжительность</span></td><td><span class="table_header_text">Год выпуска</span></td><td><span class="table_header_text">Примьера фильма в России</span></td><td><span class="table_header_text">Возраст</span></td></tr>
+                                    <tr><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="unit_data_info_table_block">
+                            <table class="unit_data_info_table">
+                                <tr><td><span class="table_header_text">Жанр</span></td><td>...</td></tr>
+                                <tr><td><span class="table_header_text">Стран</span></td><td>...</td></tr>
+                                <tr><td><span class="table_header_text">В главных ролях</span></td><td>...</td></tr>
+                                <tr><td><span class="table_header_text">Учавствует в подборках</span></td><td>...</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="unit_description_block">
+                            <span class="header"> О чем фильм?</span>
+                            <span class="content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Nulla porro aspernatur illo deleniti obcaecati assumenda quibusdam accusantium, 
+                                corporis quae libero dolores officia eius.
+                                Consectetur obcaecati nesciunt doloribus, aliquid blanditiis odio.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cumque 
+                                saepe quae quibusdam? Et magnam, quos ipsum incidunt perspiciatis quam 
+                                reprehenderit sunt asperiores amet porro explicabo dicta aliquam obcaecati 
+                                quas.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="film_unit">
+
+                    <div class="left_part">
+                        <img class = "film_image" src = 'Sourses/images/f4.png' />
+                        <div class="raiting">
+                            raiting
+                        </div>
+                    </div>
+                    <div class="right_part">
+                        <div class="name_block">
+                            <span class="big_name"> Имя (2024)</span>
+                            <span class="small_name"> Name </span>
+                        </div>
+                        <div class="unit_data_info_table_block">
+                            <table class="unit_data_info_table">
+                                    <tr><td><span class="table_header_text">Продолжительность</span></td><td><span class="table_header_text">Год выпуска</span></td><td><span class="table_header_text">Примьера фильма в России</span></td><td><span class="table_header_text">Возраст</span></td></tr>
+                                    <tr><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="unit_data_info_table_block">
+                            <table class="unit_data_info_table">
+                                <tr><td><span class="table_header_text">Жанр</span></td><td>...</td></tr>
+                                <tr><td><span class="table_header_text">Стран</span></td><td>...</td></tr>
+                                <tr><td><span class="table_header_text">В главных ролях</span></td><td>...</td></tr>
+                                <tr><td><span class="table_header_text">Учавствует в подборках</span></td><td>...</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="unit_description_block">
+                            <span class="header"> О чем фильм?</span>
+                            <span class="content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Nulla porro aspernatur illo deleniti obcaecati assumenda quibusdam accusantium, 
+                                corporis quae libero dolores officia eius.
+                                Consectetur obcaecati nesciunt doloribus, aliquid blanditiis odio.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cumque 
+                                saepe quae quibusdam? Et magnam, quos ipsum incidunt perspiciatis quam 
+                                reprehenderit sunt asperiores amet porro explicabo dicta aliquam obcaecati 
+                                quas.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="right_panel max1060hidden">
+            <div class="right_panel_header">
+                Collections:
+            </div>
+            <div class="right_panel_items">
+                <div class="right_panel_item">
+                    <div class="right_panel_small_icon">
+                        <img class="right_panel_small_icon_img" src="Sourses/images/f5.png" alt="-">
+                    </div>
+                    <div class="right_panel_small_item_description">
+                        <div class="small_item_update_data">
+                            <span class="small_item_update_data_text">
+                                update data
+                            </span>
+                        </div>
+                        <span class="right_panel_small_item_description_text">
+                            DESCRIPTION
+                        </span>
+                    </div>
+                </div>
+                <div class="right_panel_item">
+                    <div class="right_panel_small_icon">
+                        <img class="right_panel_small_icon_img" src="Sourses/images/f4.png" alt="-">
+                    </div>
+                    <div class="right_panel_small_item_description">
+                        <div class="small_item_update_data">
+                            <span class="small_item_update_data_text">
+                                update data
+                            </span>
+                        </div>
+                        <span class="right_panel_small_item_description_text">
+                            DESCRIPTION
+                        </span>
+                    </div>
+                </div>
+                <div class="right_panel_item">
+                    <div class="right_panel_small_icon">
+                        <img class="right_panel_small_icon_img" src="Sourses/images/f3.png" alt="-">
+                    </div>
+                    <div class="right_panel_small_item_description">
+                        <div class="small_item_update_data">
+                            <span class="small_item_update_data_text">
+                                update data
+                            </span>
+                        </div>
+                        <span class="right_panel_small_item_description_text">
+                            DESCRIPTION
+                        </span>
+                    </div>
+                </div>
+                <div class="right_panel_item">
+                    <div class="right_panel_small_icon">
+                        <img class="right_panel_small_icon_img" src="Sourses/images/f2.png" alt="-">
+                    </div>
+                    <div class="right_panel_small_item_description">
+                        <div class="small_item_update_data">
+                            <span class="small_item_update_data_text">
+                                update data
+                            </span>
+                        </div>
+                        <span class="right_panel_small_item_description_text">
+                            DESCRIPTION
+                        </span>
+                    </div>
+                </div>
+                <div class="right_panel_item">
+                    <div class="right_panel_small_icon">
+                        <img class="right_panel_small_icon_img" src="Sourses/images/f1.png" alt="-">
+                    </div>
+                    <div class="right_panel_small_item_description">
+                        <div class="small_item_update_data">
+                            <span class="small_item_update_data_text">
+                                update data
+                            </span>
+                        </div>
+                        <span class="right_panel_small_item_description_text">
+                            DESCRIPTION
+                        </span>
+                    </div>
+                </div>
+            </div>
+                <div class="banner" >
+                    <div class="description" >
+                        collections
+                    </div>
+                    <div>
+                        <div class="image" style="background-image: url('Sourses/images/b1.png'); background-repeat: no-repeat; background-size: auto 100%;">
+                            <div class="image_text"> <div><span>Лучшие сериалы 2019 - 2024 годов</span><div> 
+                                <div class = "blue_button_play">
+                                    <span>Смотреть</span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+
+            
+        </div>
+        </div>
+
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <script src="Sourses/scripts/changeColorTheme.js"></script>
+    <script src="Sourses/scripts/hideElements.js"></script>
+    <link rel="stylesheet" href="Sourses/styles/media.css" />
+</body>
+</html>
